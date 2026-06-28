@@ -77,7 +77,7 @@ docker push <שם-המשתמש>/docker-challenge
 
 ```bash
 docker compose up --build
-docker compose down
+docker compose down   
 ```
 
 ---
