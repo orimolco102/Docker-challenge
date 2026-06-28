@@ -8,6 +8,9 @@ services:
     depends_on:
       - mongo
 
+  web:
+    hostname: mongoDB
+
   mongo:
     image: mongo:7
     ports:
