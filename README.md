@@ -59,14 +59,13 @@ docker ps
 docker logs <שם הקונטיינר>
 ```
 
-לנקות קונטיינרים תקועים:
+לנקות קונטיינרים תקועים: 
 
 ```bash
 docker rm -f $(docker ps -aq)
 ```
 
-להעלות לדוקר האב:
-
+להעלות לדוקר האב: wfwefwe
 ```bash
 docker login
 docker tag docker-challenge <שם-המשתמש>/docker-challenge
